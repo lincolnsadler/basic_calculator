@@ -1,21 +1,21 @@
 num1 = int(input('Digite um número '))
 num2 = int(input('Digite outro numero'))
-operacao = input('a operação [ + / - / * / ]')
+operation = input('a operação [ + / - / * / ]')
 
-def calculadora (num1, num2, operacao):
-    if operacao == '+':
+def calculator (num1, num2, operation):
+    if operation == '+':
         return(num1 + num2)
-    elif operacao == '-':
+    elif operation == '-':
         return(num1 - num2)
-    elif operacao == '*':
+    elif operation == '*':
         return(num1 * num2)
-    elif operacao == '/':
+    elif operation == '/':
         if num2 == 0:
             print('Error')
         return(num1 / num2)
     else:
-        print('operação inválida')
+        print('Invalid operation')
 
-resultado = calculadora(num1, num2, operacao)
-print(f'O valor da conta é: {resultado}')
+result = calculator(num1, num2, operation)
+print(f'The value is: {result}')
 
