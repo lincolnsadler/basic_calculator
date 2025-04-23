@@ -1,6 +1,6 @@
 num1 = int(input('First number:'))
 num2 = int(input('Second number:'))
-operation = input('a operação [ + / - / * / ]')
+operation = input('the operation: [ + / - / * / ]')
 
 def calculator (num1, num2, operation):
     if operation == '+':
