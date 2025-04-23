@@ -1,5 +1,5 @@
-num1 = int(input('Digite um número '))
-num2 = int(input('Digite outro numero'))
+num1 = int(input('First number:'))
+num2 = int(input('Second number:'))
 operation = input('a operação [ + / - / * / ]')
 
 def calculator (num1, num2, operation):
