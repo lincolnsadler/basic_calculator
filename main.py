@@ -19,3 +19,5 @@ def calculator (num1, num2, operation):
 result = calculator(num1, num2, operation)
 print(f'The value is: {result}')
 
+# This is just a simple project to increase my Github profile...
+
